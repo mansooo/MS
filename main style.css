@@ -1,0 +1,59 @@
+#grid{
+  display: grid;
+  grid-template-columns: 1fr 95px 80px 140px;
+  text-align: center;
+  padding-bottom:0px;
+}
+
+div{
+  background-color: #544a44;
+  padding-bottom:10px;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+h1{
+  text-align:center;
+  background-color: #544a44;
+  margin:0;
+  padding:10px;
+  padding-bottom:15px;
+  padding-top:30px;
+}
+#place{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  text-align:center;
+  background-color: #f8e002;
+  padding-top:10px;
+  padding-bottom:0
+}
+.spotcolor{
+  background-color: #f8e002;
+}
+#spot1{
+  color:skyblue;
+}
+.spot{
+  color:gray;
+}
+body{
+  margin:0;
+  background-color: ;
+
+}
+span{
+  display: block;
+  font-size:larger;
+  text-align:center;
+  color:gray;
+}
+img{
+  display: block;
+
+  image-align:center;
+
+}
