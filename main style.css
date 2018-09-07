@@ -4,10 +4,17 @@
   text-align: center;
   padding-bottom:0px;
 }
+#picture{
+  display:grid;
+  grid-gap:0;
+  grid-template-columns: 1fr;
+  background-color: white;
+}
 
 div{
   background-color: #544a44;
   padding-bottom:10px;
+
 }
 
 a{
@@ -50,10 +57,4 @@ span{
   font-size:larger;
   text-align:center;
   color:gray;
-}
-img{
-  display: block;
-
-  image-align:center;
-
 }
