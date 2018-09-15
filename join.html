@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="mansoo">
+    <meta name="description" content="문수와 랑이의 추억을 담은 공간입니다.">
+    <meta name="keywords" content="여행, 사진, 여행사진, tripphoto, couple trip, 커플여행, 대천, 강릉, 제주도">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MS&R의 여행사진-회원가입</title>
+    <link rel="stylesheet" href="sub_style.css">
+</head>
+<body>
+   <div class="upper">
+       <header>
+           <h1><a href="main.html">MS&R Trip Photo</a></h1>    
+       </header>
+       <nav class="nav_1">
+           <div class="login"><a href="login.html">로그인</a></div>
+           <div class="join"><a href="join.html" style="color:skyblue">회원가입</a></div>
+           <div class="revise"><a href="revise.html">회원정보수정</a></div>
+       </nav>
+   </div>
+   <nav class="nav_2">
+       <div class="spot_1"><a href="spot_1.html">대천</a></div>
+       <div class="spot_2"><a href="spot_2.html">제주도</a></div>
+       <div class="spot_3"><a href="spot_3.html">강릉</a></div>
+       <div class="spot_4"><a href="spot_4.html">기타</a></div>
+   </nav>
+   <section>
+      <main>
+       <h2>회원가입</h2>
+       <form action="main.html" method="post">
+           <p>성명: <input type="text" name="id" placeholder="이름을 입력해주세요." autofocus></p>
+            <p>생년월일: <input type="date" name="borndate" placeholder="생년월일을 입력해주세요."></p>
+            <p>이메일: <input type="email" name="email" placeholder="이메일을 입력해주세요."></p>
+            <p>거주지: <input type="text" name="address" placeholder="거주지를 입력해주세요."></p>
+            <p>아이디: <input type="text" name="id" placeholder="아이디를 입력해주세요."></p>
+            <p>비밀번호: <input type="password" name="psw" placeholder="비밀번호를 입력해주세요."></p>
+            <h3>가보고 싶은 여행지(중복가능)</h3>
+            국내<input type="checkbox" name="spot" value="domestic">
+            동남아<input type="checkbox" name="spot" value="southeast asia">
+            중국<input type="checkbox" name="spot" value="china">
+            일본<input type="checkbox" name="spot" value="japan">
+            유럽<input type="checkbox" name="spot" value="europe">
+            미국<input type="checkbox" name="spot" value="america">
+            <p><input type="submit" name="na" value="회원가입" onclick="alert('회원가입이 완료되셨습니다.')">
+       </form>
+       </main>
+   </section>   
+   <footer>
+       전화번호:010-xxxx-xxxx
+   </footer>
+</body>
+</html>
